@@ -7,9 +7,10 @@ As stated in that email, it is important that you **get this project working on 
 
 Your time does not start until you download the actual task from ShareFile, so take your time setting up this project.
 
-## Prerequisites 
+## Prerequisites
 - Install Node.js from [nodejs.org](http://nodejs.org/download/)
 - Install PhantomJS from [phantomjs.org](http://phantomjs.org/download.html)
+	- Windows users: Extract and copy phantomjs.exe to C:\Program Files\PhantomJS
 - Install the grunt command line client by running ```npm install -g grunt-cli``` (or ```sudo npm install -g grunt-cli``` if you are on Linux or Mac OS X)
 
 ## Running this project
@@ -25,7 +26,7 @@ Your time does not start until you download the actual task from ShareFile, so t
         INFO [karma]: To run via this server, use "karma run --runner-port 9999"
         INFO [PhantomJS 1.9 (Mac)]: Connected on socket id s17Z0nnciOfl9-_MnwfP
         PhantomJS 1.9 (Mac): Executed 1 of 1 SUCCESS (0.06 secs / 0.003 secs)
-    
+
         Done, without errors.
 
 ## Learning more
