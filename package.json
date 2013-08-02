@@ -1,0 +1,16 @@
+{
+  "name": "Citrix_Online_JS_Assessment",
+  "version": "0.1.0",
+  "description": "A set of unit tests to assess the JS skills of applicants",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-karma": "~0.4.5",
+    "chai": "~1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "timo.kissing@citrixonline.com",
+  "license": "BSD"
+}
