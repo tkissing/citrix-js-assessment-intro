@@ -8,10 +8,21 @@ As stated in that email, it is important that you **get this project working on 
 Your time does not start until you download the actual task from ShareFile, so take your time setting up this project.
 
 ## Prerequisites
+
+### Mac and Linux
 - Install Node.js from [nodejs.org](http://nodejs.org/download/)
 - Install PhantomJS from [phantomjs.org](http://phantomjs.org/download.html)
-	- Windows users: Extract and copy phantomjs.exe to C:\Program Files\PhantomJS
-- Install the grunt command line client by running ```npm install -g grunt-cli``` (or ```sudo npm install -g grunt-cli``` if you are on Linux or Mac OS X)
+- Install the grunt command line client by running ```sudo npm install -g grunt-cli```
+
+### Windows Vista and later
+- Install Node.js from [nodejs.org](http://nodejs.org/download/)
+- Open a command line and verify that your path contains the following entries:
+	- ```C:\Program Files\nodejs```
+	- ```C:\Users\<username>\AppData\Roaming\npm```
+    - Windows users: It is recommended to install nodejs to ```C:\nodejs```
+- Download PhantomJS from [phantomjs.org](http://phantomjs.org/download.html)
+- Extract and copy phantomjs.exe to ```C:\Program Files\PhantomJS```
+- Install the grunt command line client by running ```npm install -g grunt-cli```
 
 ## Running this project
 - Clone this project to your computer or download it as a ZIP file and unpack it
@@ -20,14 +31,14 @@ Your time does not start until you download the actual task from ShareFile, so t
 - Run ```grunt```
 - You should get output similar to this
 
-        Running "karma:unit" (karma) task
-        INFO [karma]: Karma server started at http://localhost:8765/
-        INFO [launcher]: Starting browser PhantomJS
-        INFO [karma]: To run via this server, use "karma run --runner-port 9999"
-        INFO [PhantomJS 1.9 (Mac)]: Connected on socket id s17Z0nnciOfl9-_MnwfP
-        PhantomJS 1.9 (Mac): Executed 1 of 1 SUCCESS (0.06 secs / 0.003 secs)
-
-        Done, without errors.
+		Running "karma:unit" (karma) task
+		INFO [karma]: Karma server started at http://localhost:8765/
+		INFO [launcher]: Starting browser PhantomJS
+		INFO [karma]: To run via this server, use "karma run --runner-port 9999"
+		INFO [PhantomJS 1.9 (Mac)]: Connected on socket id s17Z0nnciOfl9-_MnwfP
+		PhantomJS 1.9 (Mac): Executed 1 of 1 SUCCESS (0.06 secs / 0.003 secs)
+		
+		Done, without errors.
 
 ## Learning more
 Although you should not need to know these technologies to fulfill your task, here are links to everything that will be used in some way:
