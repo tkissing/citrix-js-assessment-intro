@@ -47,7 +47,7 @@ Although you should not need to know these technologies to fulfill your task, he
 - [PhantomJS Headless Webkit](http://phantomjs.org/)
 - [Grunt Task Runner](http://gruntjs.com)
 - [Karma Test Runner](http://karma-runner.github.io)
-- [Jasmine Test Framework](http://pivotal.github.io/jasmine)
+- [Jasmine Test Framework](https://jasmine.github.io/)
 - [Chai Assertion Library](http://chaijs.com)
 
 ## Next Step
